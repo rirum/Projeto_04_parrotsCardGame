@@ -1,5 +1,10 @@
 //- [ ]  Ao entrar no jogo, o usuário deverá ser perguntado com quantas cartas quer jogar (utilize `prompt`)
 
+var quantasCartas = 0;
+
+do {
+    var quantasCartas = parseInt(window.prompt("Com quantas cartas você quer jogar?\n (4 a 14 cartas)"));
+    } while (isNaN(quantasCartas) || quantasCartas%2 == 1 || quantasCartas > 14 || quantasCartas < 4);
 
 
 
@@ -9,4 +14,4 @@
  */
 
 
-/**Após inserir um número de cartas válido, o jogo deverá inserir as cartas viradas pra baixo na página de forma que a distribuição seja aleatória*/'
+/**Após inserir um número de cartas válido, o jogo deverá inserir as cartas viradas pra baixo na página de forma que a distribuição seja aleatória*/
