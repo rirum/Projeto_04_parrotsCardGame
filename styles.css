@@ -1,0 +1,49 @@
+body {
+    width: 1110px;
+    height: 629px;
+    background-color: #EEF9BF;
+}
+
+.titulo {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    color: #75B79E;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 47px;
+
+}
+
+.deck {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 117px;
+    height: 146px;
+    border-radius: 5px;
+    background-color: #A7E9AF;
+    border: 1px solid #99CEA8;
+}
+
+.face {
+    width: 117px;
+    height: 146px;
+    position: absolute;
+}
+
+.front {
+    background-color: antiquewhite;
+}
+
+.back {
+    background-color: pink;
+    background-image: url(images/back.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+     background-position: center;
+}
+
+    
